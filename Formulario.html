@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-witdth, initial-scale.=1.0">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title> PcBuilder </title>
+    <style type="text/css">
+     body{
+         background-image: none;
+         background-color: lightblue;
+     }
+    </style>
+</head>
+
+<body>
+    
+    <header>
+        <ul>
+            <li>
+                <div class="capaIcono"> <a href="Index.html"> <img class="icono" src="img/iconos/home.png"> <br> Inicio </a> </div>
+            </li>
+
+            <li>
+                <div class="capaIcono"> <a href="QuienesSomos.html"> <img class="icono" src="img/iconos/persona.png"> <br> Quienes somos </a> </div>
+            </li>
+
+            <li>
+                <div class="capaIcono"> <a href="Instalaciones.html"> <img class="icono" src="img/iconos/ubicacion.png"> <br> Instalaciones </a> </div>
+            </li>
+
+            <li>
+                <div class="capaIcono"> <a href="Servicios.html"> <img class="icono" src="img/iconos/servicios.png"> <br> Servicios </a> </div>
+            </li>
+
+            <li>
+                <div class="capaIcono"> <a href="Productos.html"> <img class="icono" src="img/iconos/carrito.png"><br> Productos </a> </div>
+            </li>
+
+            <li>
+                <div class="capaIcono"> <a href="Formulario.html"> <img class="icono" src="img/iconos/contacto.png"> <br> Contacto </a> </div>
+            </li>
+        </ul>
+    </header>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <form action="mailto:raul.rodriguez@universidadeuropea.es" method="POST" name="DAM">
+		<fieldset>
+        <legend> <font face="consolas" size="5px"> <b> Formulario de Contacto </b> </font> </legend>
+        Los campos marcados con asteriscos " * " son <font color="red"> obligatorios </font>
+
+        	<fieldset>
+            	   <label for="nombre" name="nombre"> *Nombre: </label>
+            	   <input type="text" name="nombre" required>
+            	<p>
+            	   <label for="apellido1" name="apellido1"> *Apellidos: </label>
+            	   <input type="text" name="apellido1" required>
+            	</p>
+                
+            <legend> <h4> Información Personal </h4> </legend>
+                <p>
+                    <label for="asunto" name="asunto"> *Asunto: </label> <br>
+                    <input type="checkbox"> Consultoría <br>
+                    <input type="checkbox"> Desarrollo de Proyectos <br>
+                    <input type="checkbox"> Realización de Pedidos <br>
+                    <input type="checkbox"> Otros <br>
+                </p>
+
+                <fieldset>
+                <legend> Domilicio </legend>
+                    <label for="pais" name="pais"> *País: </label>
+            	    <input type="text" name="pais" required>
+        		<p>
+        		    <label for="provincia" name="provincia"> *Provincia: </label>
+            	    <input type="text" name="provincia" required>
+            	</p>
+            	<p>
+            	    <label for="poblacion" name="poblacion"> *Población: </label>
+            	    <input type="text" name="poblacion" required>
+            	</p>
+            	<p>
+            	    <label for="calle" name="calle"> *Calle: </label>
+            	    <input type="text" name="calle" required>
+                    <p>
+                        <label for="piso" name="piso"> *Piso: </label>
+                        <input type="text" name="piso" required>
+                    </p>
+                     <p>
+                        <label for="letra" name="letra"> *Letra: </label>
+                        <input type="text" name="letra" required>
+                    </p>
+                    <p>
+                        <label for="codigo postal" name="codigo postal"> *Código Postal: </label>
+                        <input type="text" name="codigo postal" maxlength="5" required>
+                    </p>
+            	</p>
+                </fieldset>
+            </fieldset>
+
+            <p>
+                <label for="email"> Comentarios Adicionales </label> 
+                <br>
+                <textarea name="comentarios" cols="60" rows="5"> </textarea>
+                <br>
+                <button type="submit"> Enviar </button>
+                <button type="reset"> Borrar </button>
+                <input type="file" name="fichero"><br>
+                </p>
+        </fieldset>
+    </form>
+    
+    <br>
+    <br>
+
+    <nav style="float:left">
+        <h3>DONDE ENCONTRARNOS</h3>
+        <img src="img/fotos/direccion.png">
+        <br>
+        Dirección: Universidad Europea de Madrid. <br>
+        Campus Villaviciosa de Odón. Calle Tajo S/N Villaviciosa de Odón. <br>
+        Madrid <br>
+        TLF: 91 211 56 73 <br>
+        Mail: ClickToGetMoney@gmail.com <br>
+        <a style="color: crimson;" href="https://www.google.com/maps/place/Universidad+Europea+de+Madrid+(Campus+Villaviciosa+de+Odón)/@40.3730747,-3.9217197,15.96z/data=!4m5!3m4!1s0xd419031a94d45e5:0x375a8b6ca7a1dc4c!8m2!3d40.3730607!4d-3.9190828">
+        Como llegar
+        </a>
+    </nav>
+
+</body>
+
+</html>
